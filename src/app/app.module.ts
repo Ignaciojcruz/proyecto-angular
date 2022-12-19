@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NuevoComponenteComponent } from './nuevo-componente/nuevo-componente.component';
 import { NuevoModuloModule } from './nuevo-modulo/nuevo-modulo.module';
 import { SegundoModuloModule } from './segundo-modulo/segundo-modulo.module';
+import { ModuloDirectivasModule } from './modulo-directivas/modulo-directivas.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SegundoModuloModule } from './segundo-modulo/segundo-modulo.module';
     BrowserModule,
     AppRoutingModule,
     NuevoModuloModule,
-    SegundoModuloModule
+    SegundoModuloModule,
+    ModuloDirectivasModule
   ],
   providers: [],
   bootstrap: [AppComponent]
